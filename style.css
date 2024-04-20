@@ -1,0 +1,125 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #56817654;
+  color: #b38f6f;
+
+  /* height: 100%; */
+}
+.nameID {
+  color: black;
+  font-size: medium;
+  /* width: 38%; */
+  box-shadow: 0 9px 12px rgb(131, 10, 23), 0 9px 10px rgb(77, 116, 15);
+}
+
+h1 {
+  text-align: center;
+}
+
+#container {
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgb(131, 170, 23), 0 6px 20px rgb(77, 36, 105);
+  margin: 20px auto;
+  border-top-left-radius: 19px;
+  border-top-right-radius: 19px;
+  display: flex;
+  background-color: antiquewhite;
+
+  /* color: rgb(90, 139, 182); */
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 30%;
+  padding: 5px;
+  margin-top: 10px;
+  border: 2px solid rgb(212, 196, 104);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="email"] {
+  width: 30%;
+  padding: 5px;
+  margin-top: 2px;
+  border: 2px solid rgb(212, 196, 104);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  width: 26%;
+  font-size: 13px;
+  border-radius: 17px;
+  height: 32px;
+  /* width: fit-content; */
+  background-color: #1fb11f;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#userTable {
+  width: 100%;
+  color: #c0404d;
+  margin-top: 20px;
+}
+
+#userTable th,
+#userTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#userTable th {
+  background-color: #f2f2f2;
+}
+
+.deleteBtn {
+  background-color: #dc3545;
+  color: white;
+  padding: 5px 10px;
+  width: fit-content;
+  border: none;
+  /* position: relative;
+    left: 168px; */
+  cursor: pointer;
+}
+
+.editBtn {
+  background-color: #b625bb;
+  color: white;
+  width: fit-content;
+  /* position: relative;
+    left: 96px; */
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  background-color: #c0404d;
+}
+.editBtn:hover {
+  background-color: #bb3e72;
+}
+
+.editableName {
+  color: black;
+}
+.editableEmail {
+  color: #5998db;
+}
+.editableEmail:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
